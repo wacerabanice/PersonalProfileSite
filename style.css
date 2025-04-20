@@ -26,7 +26,7 @@
   }
   
   header {
-    background: url('photos/header4.jpg') no-repeat center center/cover;
+    background: url('header4.jpg') no-repeat center center/cover;
     height: 100vh;
     color: rgb(81, 16, 59);
     text-align: center;
