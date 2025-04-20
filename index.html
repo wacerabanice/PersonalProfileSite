@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantity Surveyor | QS Eva </title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+      </head>
+<body>
+    <header>
+      <h1>| QS Eva |</h1>
+      <h3>Professional Quantity Surveyor | Cost Consultant | Contracts Expert | Project Manager</h3>
+      <br>
+      <nav>
+      <a href="#profile">Profile</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Hire Me</a>
+    </nav>
+    </header>
+  
+    <div class="grid">
+    <div id="profile" class="column" >
+      <h2>Profile</h2>
+      <p>I am a certified Quantity Surveyor with over 5 years of experience in cost estimation, project auditing, tendering, 
+        and contract administration. 
+        <br><br>
+        I help individuals, companies as well as construction professionals manage budgets and maximize value.</p>
+      </div>
+   
+ 
+    <div id="services" class="column">
+      <h2>Services:</h2>
+          <h3>Bill of Quantities</h3>
+          <p>Detailed and accurate BOQs for tendering and execution phases.</p>
+          <h3>Cost Estimating</h3>
+          <p>Professional budget forecasts to guide decision making.</p>
+          <h3>Contract Administration</h3>
+          <p>Ensure compliance and manage variations effectively.</p>
+          <h3>Tender Documentation</h3>
+          <p>Professional and complete tender docs for smooth procurement.</p>
+</div>
+</div>
+
+    <div id="portfolio" class="port">
+      <h2>Portfolio</h2>
+      <div class="portfolio">
+        <div class="card">
+          <h3>Office Complex, Nairobi</h3>
+          <p>Lead QS for 12-storey office project, KES 450M budget.</p>
+          <img width="40%" src="photos/sites.jpg">
+        </div>
+        <br>
+        <div class="card">
+          <h3>Residential Flats, Mombasa</h3>
+          <p>Cost planning and tendering, 60 units, KES 300M.</p>
+          <img width="40%" src="photos/site.2.jpg">
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2>Reach Me:</h2>
+      <form class="contact-form" onsubmit="return handleSubmit(event)">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p class="success-message" id="successMessage">Thank you! Your message has been sent.</p>
+      </form>
+
+    
+        <p>Email Address: evakiratu@gmail.com | Phone Number: 07xx xxx xxx </p>
+    
+    </div>
+  
+    <footer>
+      <p>&copy; 2025 QS Eva | Quantity Surveyor</p>
+      <p>
+        <a href="#" style="color: #9b3f76;">LinkedIn</a> |
+        <a href="#" style="color: #9b3f76;">Instagram</a>
+      </p>
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
